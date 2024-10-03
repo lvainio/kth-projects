@@ -1,7 +1,4 @@
-import java.awt.*;
 import java.awt.Graphics;
-import java.util.Random;
-import javax.swing.JPanel;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.io.IOException;

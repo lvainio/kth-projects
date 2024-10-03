@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 
 /**
  * The main class that contains the main method and creates the jframe and gameplay class and starts the game
@@ -21,7 +22,7 @@ public class Game {
         frame.setBounds(10,10,800, 800);
         frame.setResizable(false);
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.add(gamePlay);
     }
 }
