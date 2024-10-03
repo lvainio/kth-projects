@@ -9,7 +9,7 @@ import java.io.IOException;
  * @version 1.0
  * @since 1.0
  */
-public class EnemyA extends Enemy implements MovingObject {
+public class EnemyA extends Enemy {
     private static BufferedImage spaceShip;
     /**
      * The constructor for the class, that creates an EnemyA object

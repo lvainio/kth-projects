@@ -10,7 +10,7 @@ import java.io.IOException;
  * @version 1.0
  * @since 1.0
  */
-public class EnemyC extends Enemy implements MovingObject {
+public class EnemyC extends Enemy {
     private int xChange;
     private int yChange = 2;
     private static BufferedImage spaceShip;

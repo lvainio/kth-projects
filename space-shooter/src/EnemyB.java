@@ -9,7 +9,7 @@ import java.io.IOException;
  * @version 1.0
  * @since 1.0
  */
-public class EnemyB extends Enemy implements MovingObject {
+public class EnemyB extends Enemy {
 
     private int xChange = 3;
     private int yChange = 60;
